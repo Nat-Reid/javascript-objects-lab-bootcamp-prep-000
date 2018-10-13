@@ -13,4 +13,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key]
   return object
 }
-recipes = new Object({eggs : 12})
+var recipes = new Object({eggs : 12})
